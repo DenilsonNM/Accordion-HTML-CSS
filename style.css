@@ -1,0 +1,125 @@
+:root {
+  --color-1: #2937ef;
+  --color-2: #e7c824;
+  --color-3: #eb3476;
+  --color-4: #24c276;
+  --color-5: #333;
+  --color-6: #5e5e5e;
+  --color-7: #ececec;
+}
+
+/* ------------------------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 24px;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color-5);
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 32px;
+  /* font-weight: normal; */
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* ------------------------------------- */
+
+.sect_info {
+  display: flex;
+
+}
+
+.arti_FAQ {
+  width: 50%;
+  padding: 50px;
+}
+
+.div_acord {
+  padding: 20px;
+}
+
+.div_details {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px var(--color-7) solid;
+}
+
+.div_details i {
+  color: var(--color-1);
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.div_sumary {
+  display: none;
+  padding: 0 40px;
+  color: var(--color-6);
+}
+
+/* ------------------------------------- */
+
+.arti_skills {
+  width: 50%;
+  padding: 50px;
+}
+
+.div_text_percent {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.div_hr {
+  background-color: var(--color-7);
+}
+
+.div_percents_1 {
+  width: 90%;
+  border: none;
+  border-bottom: 2px var(--color-1) solid;
+}
+
+.div_percents_2 {
+  width: 65%;
+  border: none;
+  border-bottom: 2px var(--color-2) solid;
+}
+
+.div_percents_3 {
+  width: 100%;
+  border: none;
+  border-bottom: 2px var(--color-3) solid;
+}
+
+.div_percents_4 {
+  width: 75%;
+  border: none;
+  border-bottom: 2px var(--color-4) solid;
+}
